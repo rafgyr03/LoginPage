@@ -19,8 +19,8 @@
             <title>Incorrect Login</title>
         </head>
         <body>
-            <h1><h:outputText value="Incorrect Login"/></h1>
-            <p><p:outputText. value="This is the incorrect login. Please correct your username or password and try again."/></p>
+            <h1>Incorrect Login</h1>
+            <p>This is the incorrect login. Please correct your username or password and try again.</p>
         </body>
     </html>
 </f:view>
