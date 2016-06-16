@@ -16,9 +16,6 @@
         <c:if test="${!empty error}">
            <p style="color:red">${error}</p>
         </c:if>
-        <c:if test="${!empty sessionScope.username}">
-            <p>${sessionScope.username}</p>
-        </c:if>
         <form action="login" method="POST">
             <p>
                 Username: <input type="text" name="username" /><br />

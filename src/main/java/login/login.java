@@ -33,7 +33,7 @@ public class login extends HttpServlet {
             throws ServletException, IOException {
         boolean username;
         boolean password;
-        username = true;//"Marcus".equals(request.getParameter("username"));
+        username = "Marcus".equals(request.getParameter("username"));
         password = "correct".equals(request.getParameter("password"));
         return (username && password);
     }
